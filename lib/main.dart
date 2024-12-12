@@ -20,7 +20,7 @@ class _NotesAppState extends State<NotesApp> {
       theme: ThemeData(
         brightness: Brightness.dark
       ),
-      home: NotesView(),
+      home:const NotesView(),
     );
   }
 }
