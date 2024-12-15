@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AddShowModalBottomSheet extends StatelessWidget {
-  const AddShowModalBottomSheet({super.key});
+class AddNoteModalBottomSheet extends StatelessWidget {
+  const AddNoteModalBottomSheet({super.key});
 
   @override
   Widget build(BuildContext context) {
