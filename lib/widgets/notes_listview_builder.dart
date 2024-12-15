@@ -6,11 +6,17 @@ class NoteListviewBuilder extends StatelessWidget {
   final colors = const [];
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(itemBuilder: (context, item) {
-      return const Padding(
-        padding: EdgeInsets.only(bottom: 10),
-        child: NoteItem(),
-      );
-    });
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical:16),
+      child: ListView.builder(
+        padding: EdgeInsets.zero,
+        itemBuilder: (context, item) {
+        return const Padding(
+          padding: EdgeInsets.only(bottom: 5),
+          child: NoteItem(),
+          
+        );
+      }),
+    );
   }
 }
