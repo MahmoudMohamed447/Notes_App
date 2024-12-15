@@ -3,7 +3,7 @@ import 'package:notes_app/widgets/custom_note_item.dart';
 
 class NoteListviewBuilder extends StatelessWidget {
   const NoteListviewBuilder({super.key});
-
+  final colors = const [];
   @override
   Widget build(BuildContext context) {
     return ListView.builder(itemBuilder: (context, item) {
