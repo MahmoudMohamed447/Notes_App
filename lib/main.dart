@@ -4,8 +4,8 @@ import 'package:notes_app/constant.dart';
 import 'package:notes_app/views/notes_view.dart';
 
 void main() async {
-  Hive.initFlutter();
-  Hive.openBox(kNoteBox);
+  await Hive.initFlutter();
+  await Hive.openBox(kNoteBox);
   runApp(const NotesApp());
 }
 
